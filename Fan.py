@@ -7,7 +7,7 @@ class Fan:
         self.__radius = radius
         self.__color = color
         self.__power = power
-# Create def in all values
+# Create def in all values (setters)
     # Speed
     def set_speed(self):
         while True:
@@ -46,3 +46,17 @@ class Fan:
                     print('Invalid input, please try again.')
             except ValueError:
                 print('Invalid input, please enter a number.')
+
+# Returning all the variables from the setters
+    # speed
+    def get_speed(self):
+        return self.__speed
+    # radius
+    def get_radius(self):
+        return self.__radius
+    # color 
+    def get_color(self):
+        return self.__color
+    # power
+    def get_power(self):
+        return self.__power
