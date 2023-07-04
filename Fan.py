@@ -32,4 +32,7 @@ class Fan:
         self.__radius = int(input('Set the radius of the fan: '))
         return self.__radius
     # Color 
+    def set_color(self):
+        self.__color = str(input('Please describe the color of the Fan: '))
+        return self.__color
     # Power
