@@ -50,7 +50,7 @@ class Fan:
 # Returning all the variables from the setters
     # speed
     def get_speed(self):
-        return self.__speed
+        return str(self.__speed)
     # radius
     def get_radius(self):
         return self.__radius
@@ -59,4 +59,4 @@ class Fan:
         return self.__color
     # power
     def get_power(self):
-        return self.__power
+        return str(self.__power)
