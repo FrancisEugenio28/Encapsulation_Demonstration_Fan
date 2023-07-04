@@ -11,4 +11,9 @@ fan1.set_power()
 # print the output
 print('\n[Fan number 1] \nSpeed: ', fan1.get_speed(), '\nRadius: ', fan1.get_radius(), '\nColor: ', fan1.get_color(), '\nPower: ', fan1.get_power())
 # call all the functions in fan2
+fan2.set_speed()
+fan2.set_radius()
+fan2.set_color()
+fan2.set_power()
 # print the output
+print('\n[Fan number 2] \nSpeed: ', fan2.get_speed(), '\nRadius: ', fan2.get_radius(), '\nColor: ', fan2.get_color(), '\nPower: ', fan2.get_power())
