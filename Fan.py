@@ -36,3 +36,16 @@ class Fan:
         self.__color = str(input('Please describe the color of the Fan: '))
         return self.__color
     # Power
+    def set_power(self):
+        while True:
+            try:
+                power_input = int(input('(0 if you want to turn off the fan, 1 if you want to turn on the fan) | 1 | 0 |: '))
+                if power_input == 1:
+                    self.__power = 'ON'
+                elif power_input == 0:
+                    self.__power = "OFF"
+                    break
+                else:
+                    print('Invalid input, please try again.')
+            except ValueError:
+                print('Invalid input, please enter a number.')
