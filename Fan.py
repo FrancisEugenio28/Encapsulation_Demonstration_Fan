@@ -39,6 +39,7 @@ class Fan:
                 self.__power = int(input('(0 if you want to turn off the fan, 1 if you want to turn on the fan) | 1 | 0 |: '))
                 if self.__power == 1:
                     self.__power = 'ON'
+                    break
                 elif self.__power == 0:
                     self.__power = "OFF"
                     break
