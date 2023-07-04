@@ -26,6 +26,10 @@ class Fan:
                     print('Invalid input, please try again.')
             except ValueError:
                 print('Invalid input, please enter a number.')
+        return self.__speed
     # Radius
+    def set_radius(self):
+        self.__radius = int(input('Set the radius of the fan: '))
+        return self.__radius
     # Color 
     # Power
